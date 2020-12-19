@@ -1,0 +1,16 @@
+{
+  "name": "FallenAngel",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.0",
+    "moment": "^2.29.1",
+    "discord-music-player": "^6.2.0",
+    "opusscript": "^0.0.7"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
