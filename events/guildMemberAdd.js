@@ -29,7 +29,10 @@ let altfound =  new Discord.MessageEmbed()
 member.guild.channels.cache.get("789466932231405598").send(altfound);
   
   } else {
-    
+
+let memberRole = member.guild.roles.cache.get("789128378866991105");
+member.roles.add(memberRole);
+
 let welcome = new Discord.MessageEmbed()
   .setAuthor(`- Welcome ${member.user.username}`, member.user.avatarURL())
   .setDescription(`🤗 Hello, ${member}, we appreciate you stopping by and checking out our awesome server HeavenPE! We have great plans and are very excited that you are here to experience some nextlevel games on our server.\n\n🤔 If you have any questions or concerns feel free to ask a staff member for assistance! Here at HeavenPE we strive to provide the best possible player experience and we intend to do that with our awesome and loving staff members.\n\n🌟Important Informations🌟\n**IP:** play.heavenpe.xyz:26556\n**Website:** https://heavenpe.xyz\n**Vote:** http://vote.heavenpe.xyz`)
