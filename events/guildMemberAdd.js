@@ -26,7 +26,7 @@ let altfound =  new Discord.MessageEmbed()
   .addField("Joined Guild On", joiningDate) 
   .setThumbnail(member.user.avatarURL())
 
-member.guild.channels.cache.get("789466932231405598").send(altfound);
+member.guild.channels.cache.get("796100126204100628").send(altfound);
   
   } else {
 
@@ -40,7 +40,7 @@ let welcome = new Discord.MessageEmbed()
   .setFooter("(C) HeavenPE Network 2021")
   .setThumbnail(member.user.avatarURL())
 
-member.guild.channels.cache.get("789466932231405598").send(welcome);
+member.guild.channels.cache.get("796100126204100628").send(welcome);
 }
 
 }
