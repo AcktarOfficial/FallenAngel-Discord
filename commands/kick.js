@@ -46,7 +46,7 @@ let BAN_LOG = new Discord.MessageEmbed()
    .addField("User ID", member.id)
    .addField("Moderator", message.author)
    .addField("Reason", reason)
-message.guild.channels.cache.get("789533778292637696").send(BAN_LOG);
+message.guild.channels.cache.get("796260573384933406").send(BAN_LOG);
   
 let USER_BANNED = new Discord.MessageEmbed()
    .setAuthor(message.author.tag, message.author.avatarURL())
