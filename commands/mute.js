@@ -37,8 +37,8 @@ if (!member) return message.channel.send(MEMBER_NOT_FOUND);
 let reason = args.slice(2).join(" ");
 if(!reason) reason = 'Unspecified';
 
-member.roles.remove("789128378866991105");
-member.roles.add("791006341426053190");
+member.roles.remove("796051280237166643");
+member.roles.add("796051281063182338");
  
 let MUTE_LOG = new Discord.MessageEmbed() 
    .setAuthor("Member Muted By Admin", member.user.avatarURL())
@@ -49,7 +49,7 @@ let MUTE_LOG = new Discord.MessageEmbed()
    .addField("Moderator", message.author)
    .addField("Time", `${ms(ms(args[1]))}`)
    .addField("Reason", reason)
-message.guild.channels.cache.get("789533778292637696").send(MUTE_LOG);
+message.guild.channels.cache.get("796260573384933406").send(MUTE_LOG);
   
 let USER_MUTED = new Discord.MessageEmbed()
    .setAuthor(message.author.tag, message.author.avatarURL())
@@ -59,8 +59,8 @@ let USER_MUTED = new Discord.MessageEmbed()
 message.channel.send(USER_MUTED);
   
 setTimeout(function() {
-   member.roles.add("789128378866991105");
-   member.roles.remove("791006341426053190");
+   member.roles.add("796051280237166643");
+   member.roles.remove("796051281063182338");
  
    let UNMUTE_NOTIF = new Discord.MessageEmbed()
    .setAuthor(message.author.tag, message.author.avatarURL())
