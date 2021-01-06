@@ -23,7 +23,7 @@ let SUGGESTION =  new Discord.MessageEmbed()
    .setColor("RANDOM")
    .setFooter("(C) HeavenPE Network 2021")
    .setDescription(args.join(" "))
-message.guild.channels.cache.get("789533778292637696").send(SUGGESTION).then(async m => {
+message.guild.channels.cache.get("796244217848004618").send(SUGGESTION).then(async m => {
 
 await m.react("☑️");
 await m.react("❎")
